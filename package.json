@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:ssr-redirect-loop": "node dist/ssr-redirect-loop/server/server.mjs"
+    "serve:ssr:ssr-redirect-loop": "ng build && node dist/ssr-redirect-loop/server/server.mjs"
   },
   "prettier": {
     "printWidth": 100,
